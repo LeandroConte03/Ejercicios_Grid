@@ -1,0 +1,9 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.caja {
+    background-color: crimson;
+    border-color: black;
+    border: 2px solid;
+}

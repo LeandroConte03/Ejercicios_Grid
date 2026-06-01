@@ -1,0 +1,50 @@
+.contenedor {
+    display: grid;
+    gap: 15px;
+    background-color: blueviolet;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.contenedor.a {  
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));  
+}
+
+.contenedor.b {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: aqua;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

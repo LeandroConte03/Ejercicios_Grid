@@ -1,0 +1,9 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: blueviolet;
+}
+
+.caja {
+    border: 2px solid black;
+}

@@ -1,0 +1,16 @@
+.contenedor {
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    place-content: center;
+}
+
+.caja {
+    border: 2px solid black;
+    display: grid;
+    place-items: center;
+    background-color: chocolate;
+}

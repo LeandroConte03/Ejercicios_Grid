@@ -1,0 +1,10 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 200px 1fr 100px;
+}
+
+.caja {
+    border: 2px solid black;
+    background-color: cadetblue;
+}
+

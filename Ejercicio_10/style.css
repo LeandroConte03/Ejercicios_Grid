@@ -1,0 +1,36 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 100px);
+    background-color: purple;
+
+    grid-template-areas: 
+    "header header header"
+    "sidebar main main"
+    "footer footer footer";
+}
+
+
+.sidebar {
+    grid-area: sidebar;
+    border: 2px solid black;
+    background-color: rgb(2, 22, 110);
+}
+
+.cabecera {
+    grid-area: header;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+.principal {
+    grid-area: main;
+    border: 2px solid black;
+    background-color: rgb(236, 203, 14);
+}
+
+.pie {
+    grid-area: footer;
+    border: 2px solid black;
+    background-color: rgb(8, 192, 131);
+}
