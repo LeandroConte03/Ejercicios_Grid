@@ -1,0 +1,11 @@
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.dia-titulo, .dia {
+  aspect-ratio: 1 / 1;
+  display: grid;
+  place-items: center;
+  border: 1px solid #ccc;
+}

@@ -1,0 +1,15 @@
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  gap: 15px;
+  grid-auto-flow: dense; /* Opcional pero recomendado para evitar huecos */
+}
+
+.destacado {
+  grid-column: span 2;
+}
+
+.destacado-vertical {
+  grid-row: span 2;
+}
